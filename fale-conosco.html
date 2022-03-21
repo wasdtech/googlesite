@@ -1,14 +1,50 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
+<html lang="pt-br">
 
-[AQUI ENTRA UMA FOTO]
+<head>
+    <meta charset="UTF-8">
+    <title>Google Glass</title>
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+    <link rel="stylesheet" href="_css/estilo.css">
+
+</head>
+<script src="_javascript/funcoes.js"></script>
+
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+            <img id="icone" src="_imagens/glass-oculos-preto-peq.png" alt="logo">
+
+
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul type="square">
+
+                    <li onmousemove="mudaFoto('_imagens/home.png')"
+                        onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"> <a href="index.html">Home</a></li>
+
+                    <li onmousemove="mudaFoto('_imagens/especificacoes.png')"
+                        onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"> <a
+                            href="specs.html">Especificações</a></li>
+
+                    <li onmousemove="mudaFoto('_imagens/fotos.png')"
+                        onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fotos.html">Fotos</a></li>
+
+                    <li onmousemove="mudaFoto('_imagens/multimidia.png')"
+                        onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a
+                            href="multimidia.html">Multimídia</a></li>
+
+                    <li onmousemove="mudaFoto('_imagens/contato.png')"
+                        onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fale-conosco.html">Fale
+                            conosco</a></li>
+
+                </ul>
+            </nav>
+        </header>
 
 Fale Conosco > Contato
 Formulário de Contato
@@ -43,5 +79,11 @@ Quero um Google Glass
 
 [BOTÃO ENVIAR]
 
-Copyright 2013 - by Gustavo Guanabara
-Facebook | Twitter
+<footer id="rodape">
+    <p>Copyright <sup>&copy;</sup> 2013 - by Gustavo Guanabara<br />
+        Facebook | Twitter</p>
+</footer>
+</div>
+</body>
+
+</html>
